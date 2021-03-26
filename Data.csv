@@ -1,0 +1,4 @@
+Counterparty,Type of Counterparty,Risk Weight,Effective Maturity,Exposure,Recovery Rate
+a,Sovereign IG,0.005,1,10000,0.6
+b,Financials HY,0.12,1,40000,0.7
+c,"Technology, telecommunications HY",0.055,1,50000,0.5
