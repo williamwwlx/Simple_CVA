@@ -17,6 +17,7 @@ for (i in 1:number) {
   eff = data[i,'Effective.Maturity']
   exposure = data[i,'Exposure']
   recovery = data[i,'Recovery.Rate']
+  #assuming 5% discount rate, the same rate provided in the BASEL example
   discount_rate = ((1-exp(-0.05*eff))/0.05*eff)
   alpha = 1.4
   
